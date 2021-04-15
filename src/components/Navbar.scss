@@ -15,7 +15,7 @@ nav {
     padding: 60px 30px 0px 30px;
   }
 }
-ul {
+.nav-items {
   font-size: var(--fontsize-nav);
   text-align: center;
   list-style-type: none;
@@ -23,7 +23,7 @@ ul {
     display: none;
   }
 }
-nav ul li {
+nav .nav-items li {
   margin: 40px;
 }
 

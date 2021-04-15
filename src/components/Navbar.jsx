@@ -26,7 +26,7 @@ class Navbar extends Component {
     render() {
         return (
             <nav>
-            <ul>
+            <ul className='nav-items'>
             <Navitem id='list' item="Home" tolink="/" ></Navitem>
             <Navitem id='list' item="About" tolink="/about" ></Navitem>
             <Navitem id='list' item="Education" tolink="/education"></Navitem>

@@ -7,22 +7,22 @@ import './Skills.scss'
 import ProgressBar from '../components/ProgressBar'
 
 const skillsData= [
-    { bgcolor: "#6a1b9a", completed: 60 },
-    { bgcolor: "#00695c", completed: 30 },
-    { bgcolor: "#ef6c00", completed: 53 },  
+    { bgcolor: "#86C232", completed: 60 , title:'HTML'},
+    { bgcolor: "#6B6E70", completed: 30 , title:'CSS'},
+    { bgcolor: "#86C232", completed: 53 , title:'JS' },  
 ]
 
 
 
 class Skills extends Component {
     
-    constructor(props) {
-        super(props);
-        this.state={
-            'myskills':['Html','CSS','JS','REACT JS','CYPRESS']
-        };
+    // constructor(props) {
+    //     super(props);
+    //     this.state={
+    //         'myskills':['Html','CSS','JS','REACT JS','CYPRESS']
+    //     };
 
-    }
+    // }
     render () {
            
             return (
@@ -31,12 +31,13 @@ class Skills extends Component {
                     My Skills
                 </h1>
                 <ul>
-                    {this.state.myskills.map((value)=> {
+                    {/* {this.state.myskills.map((value)=> {
                         return <li>{value}</li>
-                    })}
+                    })} */}
                      {skillsData.map((item, idx) => (
-                     <ProgressBar key={idx} bgcolor={item.bgcolor} completed={item.completed} />
-      ))}
+                     <ProgressBar key={idx} bgcolor={item.bgcolor} completed={item.completed} title={item.title} />
+                    ))
+                }
                 </ul>
             </div>
         )

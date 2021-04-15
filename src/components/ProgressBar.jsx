@@ -4,7 +4,7 @@ import React from 'react';
 import './ProgressBar.scss'
 
 const ProgressBar = (props) => {
-    const { bgcolor, completed } = props;
+    const { bgcolor, completed , title} = props;
     const fillerStyles = {
         height: '100%',
         width: `${completed}%`,
@@ -17,7 +17,7 @@ const ProgressBar = (props) => {
     return (
         <div className='container'>
             <div className='fill' style={fillerStyles}>
-                <span className='label'>{`${completed}%`}</span>
+                <span className='label'>{`${title}`} {`${completed}%`}</span>
             </div>
         </div>
     )

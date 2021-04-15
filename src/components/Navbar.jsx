@@ -25,7 +25,9 @@ class Navbar extends Component {
     // };
     render() {
         return (
-            <nav>
+            <nav className="nav" role="custom-dropdown">
+                <input type="checkbox" id="button"/>
+                <label for="button" onclick></label>
             <ul className='nav-items'>
             <Navitem id='list' item="Home" tolink="/" ></Navitem>
             <Navitem id='list' item="About" tolink="/about" ></Navitem>

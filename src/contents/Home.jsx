@@ -12,7 +12,7 @@ class Home extends Component {
     render() {
         return (
             <div className='profile-info'>
-                <img src={profilepic} className="profilepic" width='300px' height='300px'></img>
+                <img src={profilepic} alt='pranab' className="profilepic" width='300px' height='300px'></img>
                 <ReactTypingEffect className="typingeffect" text={['I am Pranab Raj Amatya','I am a web developer']} speed={100} eraseDelay={700}/>
                 <Social />
             </div>

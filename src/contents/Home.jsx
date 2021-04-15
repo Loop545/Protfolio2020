@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 //Components
 import Social from '../components/Social'
 //image
-import profilepic from '../img/profile.JPG';
+import profilepic from '../assest/img/profile.JPG'
 //Type effect
 import ReactTypingEffect from 'react-typing-effect';
 //Styles

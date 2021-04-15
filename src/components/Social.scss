@@ -1,16 +1,28 @@
 @import "../App.scss";
 
 .social {
+  flex: var(--condiv-flex);
   position: absolute;
-  margin-top: 20px;
   display: flex;
-  bottom: 60px;
+  bottom: 2%;
+  left: 50%;
+  margin: 0 auto;
+  align-self: center;
+  @media screen and (max-width: 60rem) {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 20%;
+  }
 }
-.social i {
-  padding-right: 30px;
+.social img {
+  padding: 1rem;
   font-size: 25px;
   color: #9a9b9c;
+  width: 1.5rem;
+  height: 1.5rem;
 }
-.social i:hover {
-  color: #ffffff;
+.social a:hover {
+  background-color: #86c232;
+  border-radius: 1rem;
 }

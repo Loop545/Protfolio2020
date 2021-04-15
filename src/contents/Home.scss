@@ -4,6 +4,9 @@
   padding: 100px;
   background-color: #f4f5f9;
   flex: var(--condiv-flex);
+  @media screen and (max-width: 60rem) {
+    height: 100vh;
+  }
 }
 .profile-content {
   display: flex;
@@ -18,5 +21,3 @@
   margin: 0 auto;
   font-size: 3rem;
 }
-
-//mobile

@@ -5,3 +5,18 @@
   background-color: #f4f5f9;
   flex: var(--condiv-flex);
 }
+.profile-content {
+  display: flex;
+  flex-direction: column;
+}
+.profilepic {
+  margin: 0 auto;
+}
+
+.typingeffect {
+  padding-top: 1rem;
+  margin: 0 auto;
+  font-size: 3rem;
+}
+
+//mobile

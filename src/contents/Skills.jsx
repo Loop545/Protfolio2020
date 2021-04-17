@@ -66,10 +66,10 @@ class Skills extends Component {
                     </ul>
                 </div>
                 <div className='services'>
-                    <h1 className='subtopic'>
+                    <h1 className='topic'>
                         My Services
                     </h1>
-                    <p style={{color:"#61892F"}}> Everything I offer.</p>
+                    <p className='subtopic' style={{color:"#61892F"}}> Everything I offer.</p>
                     <div className='card'>
                         <Servicecard img={<img src={web}/>} title="Web Development" intro="React.UX.Wordpress" />
                         <Servicecard img={<img src={camera}/>} title="Basic Photography" intro="Protrait.Street.Landscape" />

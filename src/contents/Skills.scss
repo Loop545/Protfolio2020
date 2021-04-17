@@ -3,6 +3,10 @@
 .wrapper {
   height: 100vh;
   overflow: scroll;
+  @media screen and (max-width: 50rem) {
+    height: 100vh;
+    overflow: scroll;
+  }
 }
 .skills {
   padding: 100px;
@@ -28,6 +32,7 @@
 .card {
   display: flex;
   margin: 0 auto;
+  margin-bottom: 4rem;
   @media screen and (max-width: 50rem) {
     display: block;
     margin: 0 auto;

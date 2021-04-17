@@ -2,6 +2,7 @@
 
 nav {
   padding: 60px 30px 0px 30px;
+  height: 100vh;
   flex: var(--sidebar-flex);
   background: rgb(34, 38, 41);
   background: linear-gradient(
@@ -30,9 +31,13 @@ nav .nav-items li {
 li:active {
   font-weight: bolder;
 }
+a:hover {
+  color: #86c232;
+}
 li a {
   color: white;
   text-decoration: none;
+
   @media screen and (max-width: 50rem) {
     a.icon {
       background: black;

@@ -1,0 +1,23 @@
+.servicecard {
+  border: 2px solid #6b6e70;
+  border-radius: 2rem;
+  display: flex;
+  width: 13rem;
+  margin: 1rem;
+  flex-direction: row;
+  @media screen and (max-width: 60rem), (min-width: 40rem) {
+    margin: 0 auto;
+    width: 13rem;
+    margin-bottom: 1rem;
+  }
+}
+.servicecard:hover {
+  color: white;
+  background-color: #222629;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.single-card {
+  display: block;
+  text-align: center;
+  padding: 20px;
+}

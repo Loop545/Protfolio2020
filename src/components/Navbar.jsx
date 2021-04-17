@@ -32,7 +32,7 @@ class Navbar extends Component {
             <Navitem id='list' item="Home" tolink="/" ></Navitem>
             <Navitem id='list' item="About" tolink="/about" ></Navitem>
             <Navitem id='list' item="Education" tolink="/education"></Navitem>
-            <Navitem id='list' item="Skills" tolink="/skills"></Navitem>
+            <Navitem id='list' item="Skills/Services" tolink="/skills"></Navitem>
             <Navitem id='list' item="Contact" tolink="/contact"></Navitem>
             </ul>
             </nav>

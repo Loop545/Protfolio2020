@@ -1,5 +1,9 @@
 @import "../App.scss";
 
+.wrapper {
+  height: 100vh;
+  overflow: scroll;
+}
 .skills {
   padding: 100px;
   background-color: #f4f5f9;
@@ -7,5 +11,26 @@
 
   @media screen and (max-width: 50rem) {
     padding: 50px;
+  }
+
+  p {
+    margin-bottom: 2rem;
+  }
+}
+.services {
+  padding: 1px 100px;
+  background-color: #f4f5f9;
+  flex: var(--condiv-flex);
+  @media screen and (max-width: 50rem) {
+    padding: 50px;
+  }
+}
+.card {
+  display: flex;
+  margin: 0 auto;
+  @media screen and (max-width: 50rem) {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
   }
 }

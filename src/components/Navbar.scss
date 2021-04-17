@@ -13,6 +13,7 @@ nav {
   @media screen and (max-width: 50rem) {
     font-size: 1.5rem;
     display: block;
+    height: 3vh;
     padding: 60px 30px 0px 30px;
   }
 }
@@ -59,40 +60,44 @@ input#button {
     }
 
     label {
-      position: fixed;
+      position: absolute;
       right: 1rem;
-      top: 0.5rem;
+      top: 1rem;
       width: 1.75rem;
       height: 1.375rem;
       cursor: pointer;
     }
 
     label:after {
-      position: absolute;
+      position: relative;
       right: 0.25em;
       top: 0;
       content: "\2261";
       color: white;
       font-size: 1.8em;
-      z-index: 60;
     }
     input#button {
       display: none;
     }
 
-    // input[type="checkbox"]:checked ~ label:after {
-    //   color: rgb(206, 206, 206);
-    // }
+    input[type="checkbox"]:checked ~ label:after {
+      color: #86c232;
+    }
 
     input[type="checkbox"]:checked ~ ul {
+      position: absolute;
       display: flex;
-      right: 0;
-      top: 4rem;
       overflow-x: scroll;
+      width: 80%;
+      text-align: center;
+      margin: 0 auto;
+      top: 2rem;
       > li {
-        width: 100%;
-        text-align: left;
+        width: 1rem;
         color: black;
+        margin: 0rem;
+        padding: 0px 2rem 0 3rem;
+        width: 100%;
 
         &:after {
           position: absolute;

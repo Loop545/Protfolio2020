@@ -25,16 +25,16 @@ class Navbar extends Component {
     // };
     render() {
         return (
-            <nav className="nav" role="custom-dropdown">
+            <nav className="nav" role="button">
                 <input type="checkbox" id="button"/>
                 <label for="button" onclick></label>
-            <ul className='nav-items'>
-            <Navitem id='list' item="Home" tolink="/" ></Navitem>
-            <Navitem id='list' item="About" tolink="/about" ></Navitem>
-            <Navitem id='list' item="Education" tolink="/education"></Navitem>
-            <Navitem id='list' item="Skills/Services" tolink="/skills"></Navitem>
-            <Navitem id='list' item="Contact" tolink="/contact"></Navitem>
-            </ul>
+                <ul className='nav-items'>
+                <Navitem id='list' item="Home" tolink="/" ></Navitem>
+                <Navitem id='list' item="About" tolink="/about" ></Navitem>
+                <Navitem id='list' item="Education" tolink="/education"></Navitem>
+                <Navitem id='list' item="Skills/Services" tolink="/skills"></Navitem>
+                <Navitem id='list' item="Contact" tolink="/contact"></Navitem>
+                </ul>
             </nav>
         )
     }

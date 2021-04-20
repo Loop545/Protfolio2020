@@ -14,11 +14,11 @@ class Social extends Component {
     render() {
         return (
             <div className="social">
-            <a href="https://codepen.io/Pranab_1999" target=" " className="social-icon"><img src={codepen} /></a>
-            <a href="https://github.com/Loop545" target=" "><img src={github} /></a>
-            <a href="https://Instagram.com/pranab.raj_" target=" "><img src={instagram} /></a>
-            <a href="https://www.facebook.com/pranavr.amatya" target=" "><img src={facebook} /></a>
-            <a href="https://Linkedin.com/in/pranab-raj-amatya-6615901a2/" target=" "><img src={linkedin} /></a>
+            <a href="https://codepen.io/Pranab_1999" target=" " className="social-icon"><img src={codepen} alt='codepen'/></a>
+            <a href="https://github.com/Loop545" target=" "><img src={github} alt='github' /></a>
+            <a href="https://Instagram.com/pranab.raj_" target=" "><img src={instagram} alt='instagram' /></a>
+            <a href="https://www.facebook.com/pranavr.amatya" target=" "><img src={facebook} alt='facebook' /></a>
+            <a href="https://Linkedin.com/in/pranab-raj-amatya-6615901a2/" target=" "><img src={linkedin} alt='linkedin' /></a>
             </div>
         )
     }

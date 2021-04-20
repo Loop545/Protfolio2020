@@ -71,9 +71,9 @@ class Skills extends Component {
                     </h1>
                     <p className='subtopic' style={{color:"#61892F"}}> Everything I offer.</p>
                     <div className='card'>
-                        <Servicecard img={<img src={web}/>} title="Web Development" intro="React.UX.Wordpress" />
-                        <Servicecard img={<img src={camera}/>} title="Basic Photography" intro="Protrait.Street.Landscape" />
-                        <Servicecard img={<img src={graphic}/>} title="Graphic Design" intro="Flayers.Pamplets.Web Essential" />
+                        <Servicecard img={<img src={web} alt='web'/>} title="Web Development" intro="React.UX.Wordpress" />
+                        <Servicecard img={<img src={camera} alt='camera'/>} title="Basic Photography" intro="Protrait.Street.Landscape" />
+                        <Servicecard img={<img src={graphic} alt='graphic'/>} title="Graphic Design" intro="Flayers.Pamplets.Web Essential" />
                     </div>
                 </div>
             </div>

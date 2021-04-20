@@ -1,0 +1,23 @@
+<svg width="86px" height="197px" viewBox="0 0 86 197" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <radialGradient cx="-35.7110886%" cy="16.045835%" fx="-35.7110886%" fy="16.045835%" r="217.258882%" gradientTransform="translate(-0.357111,0.160458),scale(1.000000,0.325444),rotate(66.116660),translate(0.357111,-0.160458)" id="radialGradient-1">
+            <stop stop-color="#6E974D" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="-35.7110886%" cy="16.045835%" fx="-35.7110886%" fy="16.045835%" r="183.179167%" gradientTransform="translate(-0.357111,0.160458),scale(1.000000,0.402367),rotate(61.301459),translate(0.357111,-0.160458)" id="radialGradient-2">
+            <stop stop-color="#6E974D" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Trattatello" font-size="93" font-weight="normal" letter-spacing="10.174246">
+        <g id="Group" transform="translate(1.000000, 1.000000)" fill-rule="nonzero" stroke="#000000">
+            <text id="P" fill="url(#radialGradient-1)">
+                <tspan x="0" y="107">P</tspan>
+            </text>
+            <text id="A" fill="url(#radialGradient-2)">
+                <tspan x="16" y="133">A</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

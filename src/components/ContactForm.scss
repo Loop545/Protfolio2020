@@ -1,0 +1,26 @@
+.contact-form {
+  width: 30rem;
+  margin: 10px;
+  margin-top: 3rem;
+  padding: 1rem;
+  background-color: #6b6e70;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+  @media screen and (max-width: 60rem) {
+    width: 20rem;
+  }
+}
+
+.contact-form p {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 0 30px 0;
+}
+
+input#\33 {
+  display: block;
+  text-align: center;
+  width: 20rem;
+  height: 10rem;
+}

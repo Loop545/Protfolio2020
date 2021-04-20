@@ -1,7 +1,7 @@
 import React from 'react'
 
 //Style
-//import './ContactForm.scss'
+import './ContactForm.scss'
 
 //document.querySelector("form").addEventListener("submit", handleSubmit);
 
@@ -20,15 +20,15 @@ fetch('/', {
 const ContactForm = (props) => {
     
     return (
-        <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit}>
+        <form className="contact-form" name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit}>
         <p>
-            <label>Your Name: <input type="text" name="name" /></label>   
+            <label>Your Name: <input  id='1' type="text" name="name" /></label>   
         </p>
         <p>
-            <label>Your Email: <input type="email" name="email" /></label>
+            <label>Your Email: <input  id='2' type="email" name="email" /></label>
         </p>
         <p>
-            <label>Message: <textarea name="message"></textarea></label>
+            <label>Message: <input  classname='message-box'id='3' type="text-field" name="message"/></label>
         </p>
         <p>
             <button type="submit">Send</button>

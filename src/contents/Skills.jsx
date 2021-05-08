@@ -45,8 +45,8 @@ class Skills extends Component {
                     <h4>Hey there,</h4>
                     <h3>I am Full Stack Web <u>Developer</u> | UI/UX <u>Designer</u></h3>
                     <br></br>
-                    <p classNAme='skill-description'> Since the day I stared coding till now, I believe I have never stopped learing. There is so much
-                    out there in Web development world. Each and every aspect of web developmenmt is equally importmant as it balances out the load and each has its own purpose.
+                    <p className='skill-description'> Since the day I started coding, I believe I have never stopped learning. There is so much
+                    out there in Web development world. Each and every aspect of web developmenmt is equally important as it balances out the load and each has its own purpose.
                     <br> 
                     
                     </br>

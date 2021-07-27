@@ -5,11 +5,7 @@ nav {
   height: 100vh;
   flex: var(--sidebar-flex);
   background: rgb(34, 38, 41);
-  background: linear-gradient(
-    190deg,
-    rgba(34, 38, 41, 1) 60%,
-    rgba(97, 137, 47, 1) 90%
-  );
+  background: linear-gradient(#85b39d 20%, #2a6818);
   @media screen and (max-width: 50rem) {
     font-size: 1.5rem;
     display: block;

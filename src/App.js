@@ -2,7 +2,7 @@ import React from 'react';
 import './App.scss';
 
 //Router
-import{BrowserRouter as Router,Route,} from "react-router-dom";
+import { BrowserRouter as Router, Route, } from "react-router-dom";
 
 //Components
 import Navbar from './components/Navbar';
@@ -23,7 +23,7 @@ function App() {
           <Home />
         </Route>
         <Route path="/about">
-         <About />
+          <About />
         </Route>
         <Route path="/education">
           <Education />
